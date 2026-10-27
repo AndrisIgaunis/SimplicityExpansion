@@ -1,0 +1,14 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 4 0.3730315 0.644685 270 N 1.8V VCOM_RX ;0=2,1=0.0984
+TOP 0 0.3730315 0.644685 270 N 6 2 1.8V-1
+#
+# CMP 1
+CMP 4 0.2844488 0.3277559 0 N VCOM_RX VCOM_RX ;0=2,1=0.0984
+TOP 0 0.2844488 0.3277559 180 N 4 0 VCOM_RX-1
+#

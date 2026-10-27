@@ -5,6 +5,9 @@ Logs/
 Outputs/
 Project Outputs*/
 
+# Preserve the archived R1.0 manufacturing release.
+!/SimplicityExpansion.R1.0/Outputs/
+
 # Altium backups, temporary files, and generated project structure
 *.~(*
 *.$$$

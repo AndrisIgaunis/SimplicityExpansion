@@ -174,6 +174,7 @@ See the [TPS22917 datasheet](https://www.ti.com/lit/ds/symlink/tps22917.pdf) for
 - [Altium project](SimplicityExpansion.PrjPcb)
 - [R2.0 schematic source](SimplicityExpansion.R2.0.SchDoc) and [PCB source](SimplicityExpansion.R2.0.CSPcbDoc)
 - [R2.0 manufacturing package](SimplicityExpansion.R2.0_manufacturing/), including the schematic/PCB PDF, BOM, placement data, Gerbers, and STEP model
+- [R1.0 manufacturing archive](SimplicityExpansion.R1.0/Outputs/), originally prepared for Aisler, including the PDF, BOM, placement data, Gerbers, drill files, STEP model, and ODB++ outputs. The operating instructions above describe R2.0; consult the archived drawings when using R1.0.
 - [Silicon Labs AN958 reference guide](an958-mcu-stk-wstk-guide.pdf) for the development kit's debug and Simplicity interfaces
 
 In the BOM, **Part Number** identifies the part chosen for European sourcing, while **Comment** identifies the alternative selected for JLCPCB assembly. Some entries use the same part for both. Verify the actual assembly selection and footprint when substituting parts.
