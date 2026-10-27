@@ -28,6 +28,12 @@ SimplicityExpansion plugs directly onto a compatible Silicon Labs development ki
 
 The board routes signals and selects the debugger's voltage reference; it does not provide separate level translators for every breakout signal.
 
+## Schematic
+
+[![SimplicityExpansion R2.0 schematic](docs/images/schematic-r2.0.png)](docs/images/schematic-r2.0.png)
+
+[Open the full-resolution schematic](docs/images/schematic-r2.0.png) to zoom in on component values, pin numbers, and notes. This lossless image is rendered at 400 dpi from the R2.0 manufacturing PDF.
+
 ## Application examples
 
 ### Debugging with a display attached
@@ -91,18 +97,18 @@ J4 uses the first five Mini Simplicity signal positions. Positions 6, 9, and 10 
 
 | J4 pin | Signal | J5 pin | Signal |
 | --- | --- | --- | --- |
-| 1 | `V_BOARD` | 1 | Custom net `1` |
-| 2 | `GND` | 2 | Custom net `2` |
-| 3 | `RST` | 3 | `V_BOARD` |
-| 4 | `SCANF` / target UART RX | 4 | `GND` |
-| 5 | `PRINTF` / target UART TX or SWO | 5 | `RST` |
-| 6 | Custom net `6` | 6 | `SCANF` / target UART RX |
-| 7 | `SWDIO` / TMS | 7 | `PRINTF` / target UART TX or SWO |
-| 8 | `SWCLK` / TCK | 8 | Custom net `6` |
-| 9 | Custom net `9` | 9 | `SWDIO` / TMS |
-| 10 | Custom net `10` | 10 | `SWCLK` / TCK |
-| — | — | 11 | Custom net `9` |
-| — | — | 12 | Custom net `10` |
+| — | — | 1 | Custom net `1` |
+| — | — | 2 | Custom net `2` |
+| 1 | `V_BOARD` | 3 | `V_BOARD` |
+| 2 | `GND` | 4 | `GND` |
+| 3 | `RST` | 5 | `RST` |
+| 4 | `SCANF` / target UART RX | 6 | `SCANF` / target UART RX |
+| 5 | `PRINTF` / target UART TX or SWO | 7 | `PRINTF` / target UART TX or SWO |
+| 6 | Custom net `6` | 8 | Custom net `6` |
+| 7 | `SWDIO` / TMS | 9 | `SWDIO` / TMS |
+| 8 | `SWCLK` / TCK | 10 | `SWCLK` / TCK |
+| 9 | Custom net `9` | 11 | Custom net `9` |
+| 10 | Custom net `10` | 12 | Custom net `10` |
 | — | — | 13 | `SWO` / TDO |
 | — | — | 14 | `TDI` |
 
