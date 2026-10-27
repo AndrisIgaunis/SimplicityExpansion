@@ -1,0 +1,21 @@
+# Altium generated folders (same conventions as the other PCB repositories)
+History/
+__Previews/
+Logs/
+Outputs/
+Project Outputs*/
+
+# Altium backups, temporary files, and generated project structure
+*.~(*
+*.$$$
+*.PrjPcbStructure
+*.STEPPreview
+*.OutputStatus
+
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Keep design sources and the released *_manufacturing/ packages tracked.
