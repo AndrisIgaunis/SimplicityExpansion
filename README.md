@@ -6,6 +6,16 @@ The main goal is to make as many useful signals as possible easy to reach. The b
 
 This document describes **revision R2.0**. See the [schematic and PCB drawings](SimplicityExpansion.R2.0_manufacturing/SimplicityExpansion.R2.0.PDF) for the circuit and connector orientation.
 
+## Board and mounting
+
+| PCB views | Mounted on a development kit |
+| --- | --- |
+| ![SimplicityExpansion PCB shown from the front, edge, and rear](docs/images/pcb-views.jpg) | ![Side view of SimplicityExpansion plugged onto a Silicon Labs development kit through its two 20-pin connectors](docs/images/development-kit-mounting.jpg) |
+
+The PCB views show the target connectors and through-hole breakout on one side, the switches and other circuitry on the reverse, and the board's profile in between.
+
+SimplicityExpansion plugs directly onto a compatible Silicon Labs development kit through **two compact 20-pin, 1.27 mm-pitch connectors**. The underside sockets, **J2 (Simplicity)** and **J3 (debug)**, mate with the kit's corresponding headers. This brings both interfaces onto the adapter without separate ribbon cables between the kit and the adapter. The side view shows the stacked arrangement; check connector alignment and pin-1 orientation before fitting the board.
+
 ## Capabilities
 
 - Break out the Silicon Labs kit's debug, virtual COM port, power, and packet-trace signals to a 2.54 mm grid.
