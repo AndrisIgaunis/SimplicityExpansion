@@ -1,6 +1,6 @@
 # SimplicityExpansion
 
-SimplicityExpansion is a prototyping and debug adapter for Silicon Labs development kits. It brings power, programming, UART, and packet-trace signals from the kit's Simplicity and debug connectors out to accessible through-hole pads, with configurable target power and IO-reference voltages.
+SimplicityExpansion is a prototyping and debug adapter for Silicon Labs development kits. It brings power, programming, UART, and packet-trace signals from the kit's Simplicity and debug connectors out to accessible through-hole pads, with configurable target power and IO-reference voltages, for example, 3.3V board power, but 1.8V IO voltage. 
 
 The main goal is to make as many useful signals as possible easy to reach. The breakout pads form **P1, a 2×12 array on a 2.54 mm pitch**. They can be used as test points, wired directly, or fitted with a compatible 2.54 mm through-hole connector. This makes the board useful for breadboard experiments, custom programming cables, and connecting a debugger to a prototype PCB.
 
